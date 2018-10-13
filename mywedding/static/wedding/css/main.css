@@ -1,0 +1,49 @@
+@font-face {
+    font-family: "Belinda_Script";
+    src: url("/static/wedding/fonts/Belindascript-script/Belinda_Script.eot");
+    src: 
+    url("/static/wedding/fonts/Belindascript-script/Belinda_Script.woff") format("woff"),
+    url("/static/wedding/fonts/Belindascript-script/Belinda_Script.ttf") format("ttf"),
+    url("/static/wedding/fonts/Belindascript-script/Belinda_Script.svg") format("svg");
+}
+
+@font-face {
+    font-family: "Bebas";
+    src: url("/static/wedding/fonts/Bebas/BEBAS___.eot");
+    src: 
+    url("/static/wedding/fonts/Bebas/BEBAS___.woff") format("woff"),
+    url("/static/wedding/fonts/Bebas/BEBAS___.ttf") format("ttf"),
+    url("/static/wedding/fonts/Bebas/BEBAS___.svg") format("svg");
+}
+
+body {
+    background-color: #020504;
+}
+
+#background {
+    position: absolute;
+    top: 0;
+    left:0;
+    right: 0;
+    height: auto;
+    width: 100%;
+}
+
+#date {
+    font-family: "Belinda_Script";
+    z-index: 9999;
+    position: relative;
+    top: 2rem;
+    text-align: center;
+}
+
+#fecha {
+    color: #3a4754;
+    font-size: 96px;
+}
+
+#mensaje {
+    font-family: "Bebas";
+    color: #c17175;
+    font-size: 20px;
+}
